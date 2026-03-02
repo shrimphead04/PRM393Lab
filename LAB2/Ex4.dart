@@ -55,7 +55,7 @@ class ElectricCar extends Car {
 
 void main() {
   // Tạo đối tượng Car sử dụng constructor mặc định
-  Car car1 = Car('Toyota', 2022);
+  Car car1 = Car('Volvo', 2022);
   car1.displayInfo();
   car1.startEngine();
 
@@ -69,7 +69,7 @@ void main() {
   print('');
 
   // Tạo đối tượng ElectricCar
-  ElectricCar electricCar = ElectricCar('Tesla', 2024, 75);
+  ElectricCar electricCar = ElectricCar('VinFast', 2024, 75);
   electricCar.displayInfo();
   electricCar.startEngine();
   electricCar.chargeBattery();

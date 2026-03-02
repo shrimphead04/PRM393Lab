@@ -1,5 +1,5 @@
 // Lab 3 – Advanced Dart Practice Exercises
-// Sinh viên: HiepVTHE181347
+// Sinh viên: Viet
 // Mục tiêu: Thực hành các tính năng nâng cao của Dart
 
 import 'dart:async';
@@ -85,9 +85,9 @@ class UserRepository {
     // JSON data giả lập
     return '''
     [
-      {"name": "Nguyen Van A", "email": "nguyenvana@example.com"},
-      {"name": "Tran Thi B", "email": "tranthib@example.com"},
-      {"name": "Le Van C", "email": "levanc@example.com"}
+      {"name": "Alice", "email": "alice@example.com"},
+      {"name": "Bob", "email": "bob@example.com"},
+      {"name": "Charlie", "email": "charlie@example.com"}
     ]
     ''';
   }
@@ -242,7 +242,7 @@ void demonstrateSingleton() {
 void main() async {
   print('╔═══════════════════════════════════════════════════════════════╗');
   print('║   LAB 3 – ADVANCED DART PRACTICE EXERCISES                    ║');
-  print('║   Sinh viên: HiepVTHE181347                                   ║');
+  print('║   Sinh viên: Viet                                         ║');
   print('╚═══════════════════════════════════════════════════════════════╝\n');
 
   // =========== EXERCISE 1: Product Model & Repository ===========
@@ -260,9 +260,9 @@ void main() async {
 
   // Thêm sản phẩm
   print('Thêm sản phẩm vào repository...');
-  productRepo.addProduct(Product(id: 1, name: 'Laptop', price: 999.99));
-  productRepo.addProduct(Product(id: 2, name: 'Mouse', price: 25.50));
-  productRepo.addProduct(Product(id: 3, name: 'Keyboard', price: 75.00));
+  productRepo.addProduct(Product(id: 1, name: 'Smartphone', price: 699.99));
+  productRepo.addProduct(Product(id: 2, name: 'Headphones', price: 149.50));
+  productRepo.addProduct(Product(id: 3, name: 'Charger', price: 35.00));
 
   // Delay ngắn để stream events được xử lý
   await Future.delayed(Duration(milliseconds: 100));

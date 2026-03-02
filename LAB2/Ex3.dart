@@ -72,7 +72,7 @@ void main() {
   int calculateSquare(int number) => number * number;
 
   // Gọi các hàm
-  print('\nGọi hàm thông thường: ${greet('Hiep')}');
+  print('\nGọi hàm thông thường: ${greet('Viet')}');
   print('Gọi hàm arrow: Bình phương của 5 là ${calculateSquare(5)}');
 
   // Ví dụ kết hợp: sử dụng if/else trong vòng lặp

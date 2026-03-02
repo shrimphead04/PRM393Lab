@@ -18,7 +18,7 @@ Future<String?> fetchUserData() async {
   // Ngẫu nhiên trả về null hoặc dữ liệu
   Random random = Random();
   if (random.nextBool()) {
-    return 'Người dùng: John Doe';
+    return 'Người dùng: Viet';
   } else {
     return null; // Giả lập lỗi hoặc không có dữ liệu
   }

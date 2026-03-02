@@ -1,8 +1,8 @@
 void main() {
   // Khai báo các biến
   int age = 22;
-  double height = 170.5;
-  String name = 'Hiep VT';
+  double height = 172;
+  String name = 'Viet';
   bool isStudent = true;
 
   // In ra giá trị của các biến

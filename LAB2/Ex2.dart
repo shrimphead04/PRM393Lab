@@ -46,7 +46,7 @@ void main() {
 
   // Truy cập và thay đổi giá trị trong Map
   print('Tuổi của John: ${ages['John']}');
-  ages['Alice'] = 28; // Thêm cặp khóa-giá trị mới
+  ages['Yorn'] = 28; // Thêm cặp khóa-giá trị mới
   print('Map sau khi thêm Alice: $ages');
   ages.remove('Bob'); // Xóa cặp khóa-giá trị
   print('Map sau khi xóa Bob: $ages');
