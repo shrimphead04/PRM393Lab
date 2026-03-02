@@ -1,0 +1,40 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Exceptions to above rules
+!.pub/deps/
+!.pub/lock/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Android
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Podfile.lock
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+.DS_Store
