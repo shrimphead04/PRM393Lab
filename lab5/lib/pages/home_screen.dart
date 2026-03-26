@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // tra ve widget tree
     final movies = MovieService().getAllMovies();
 
     return Scaffold(
