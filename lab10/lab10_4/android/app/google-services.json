@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "148197999186",
+    "project_id": "demofirebase-viet2026",
+    "storage_bucket": "demofirebase-viet2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148197999186:android:90eea17d9f0f3cf06d158b",
+        "android_client_info": {
+          "package_name": "com.example.demo_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148197999186-sa54rljgtdivhimjaunt9t82lla99uk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUalSIlu-9u_-BS2ZAzrXu2bmP_P4i1U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148197999186-sa54rljgtdivhimjaunt9t82lla99uk5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "148197999186-vibn8lq6qmp647fe0vb1b44rh2po8abf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.demoFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148197999186:android:c9501f6f0793ab786d158b",
+        "android_client_info": {
+          "package_name": "com.example.lab10_full"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148197999186-6ikelpkn83cleseo7i1fia57439ropne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab10_full",
+            "certificate_hash": "a1ed9b81dbef17bf8bec4c853d5053fb965f990d"
+          }
+        },
+        {
+          "client_id": "148197999186-sa54rljgtdivhimjaunt9t82lla99uk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUalSIlu-9u_-BS2ZAzrXu2bmP_P4i1U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148197999186-sa54rljgtdivhimjaunt9t82lla99uk5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "148197999186-vibn8lq6qmp647fe0vb1b44rh2po8abf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.demoFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
